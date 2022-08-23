@@ -21,5 +21,5 @@ Wechat Push Python Version Easy Use.
  The recipient needs to follow the test number or public number to receive the message.
  
  ## 0x03 TODO
- [ ] Log<br>
- [ ] JavaScript version 
+ - [ ] Log<br>
+ - [ ] JavaScript version 
