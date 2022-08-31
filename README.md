@@ -42,3 +42,7 @@ Wechat Push Python Version Easy Use.
  ## 0x03 TODO
  - [ ] Log <br>
  - [ ] JavaScript version 
+ 
+ ## 0x04 Thanks
+ 
+ The config.py part of the code directly references the relevant code from [tychxn](https://github.com/tychxn)
