@@ -8,12 +8,14 @@ if __name__ == '__main__':
     get_days = Anniversary()
     pretty_girl = get_data.pretty_girl()
     daily_english_en, daily_english_cn = get_data.daily_english()
-    temp_min, temp_max, aqi, precipitation = get_data.get_caiyun_data()
+    temp_min, temp_max, aqi, precipitation,skycon_nl_day, skycon_nl_night = get_data.get_caiyun_data()
     birth_msg, date_msg, wedding_msg, born_msg = get_days.get_days()
     msg = {
         'touser': '',
         'template_id': '',
         'data': {
+            "skycon_nl_day": skycon_nl_day,
+            "skycon_nl_night": skycon_nl_night,
             "temp_min": temp_min,
             "temp_max": temp_max,
             "aqi": aqi,
