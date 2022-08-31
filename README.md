@@ -18,14 +18,15 @@ Wechat Push Python Version Easy Use.
  
 4. Template Reference
  ```
- 早上好鸭，{username}~
+ 早上好鸭，{target nickname or username}~
 
-温度： {{temp_min.DATA}}℃ - {{temp_max.DATA}}℃
+天气 : {{skycon_nl_day.DATA}}(白天), {{skycon_nl_night.DATA}} (夜间)
+温度 : {{temp_min.DATA}}℃ - {{temp_max.DATA}}℃
 空气质量 : {{aqi.DATA}} (US)
 {{birth_msg.DATA}}
 这是我们相恋的第{{date_msg.DATA}}天
 我们已经结婚{{wedding_msg.DATA}}天了
-今天是{babyname}出生的第{{born_msg.DATA}}天
+今天是小芝麻出生的第{{born_msg.DATA}}天
 {{precipitation.DATA}}
 
 {{pretty_girl.DATA}}
