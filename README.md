@@ -26,7 +26,7 @@ Wechat Push Python Version Easy Use.
 {{birth_msg.DATA}}
 这是我们相恋的第{{date_msg.DATA}}天
 我们已经结婚{{wedding_msg.DATA}}天了
-今天是小芝麻出生的第{{born_msg.DATA}}天
+今天是{baby name}出生的第{{born_msg.DATA}}天
 {{precipitation.DATA}}
 
 {{pretty_girl.DATA}}
