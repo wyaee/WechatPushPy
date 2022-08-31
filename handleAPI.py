@@ -43,6 +43,8 @@ class HandleAPI(object):
             temp_min = data['temperature'][0]['min']
             aqi = data['air_quality']['aqi'][0]['avg']['usa']
             precipitation = data['precipitation'][0]['avg']
+            skycon_day = data['skycon_08h_20h'][0]['value']
+            skycon_night = data['skycon_20h_32h'][0]['value']
             if precipitation > 0:
                 precipitation = {
                     "value": '[Warning]今日将有降雨，请注意带好雨具',
@@ -61,7 +63,13 @@ class HandleAPI(object):
             aqi = {
                 "value": aqi
             }
-            return temp_min, temp_max, aqi, precipitation
+            skycon_nl_day = {
+                "value": global_config.get('SkyconNL', skycon_day)
+            }
+            skycon_nl_night = {
+                "value": global_config.get('SkyconNL', skycon_night)
+            }
+            return temp_min, temp_max, aqi, precipitation, skycon_nl_day, skycon_nl_night
         else:
             print("get caiyun data error")
             exit(0)
