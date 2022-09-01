@@ -5,7 +5,7 @@ Wechat Push Python Version Easy Use.
 ## 0x00 Preparation
 
 - Python >= 3.0
-- Sign up for WeChat public number or [WeChat testing platform](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
+- Sign up for WeChat public number or [WeChat debug platform](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
 - Feature API
   - [TianAPI](https://www.tianapi.com/)
   - Weather API)：I am using the [Caiyunapp](https://dashboard.caiyunapp.com/user/sign_up/) weather API
