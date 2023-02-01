@@ -8,7 +8,7 @@ Wechat Push Python Version Easy Use.
 - Sign up for WeChat public number or [WeChat debug platform](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)
 - Feature API
   - [TianAPI](https://www.tianapi.com/)
-  - Weather API)：I am using the [Caiyunapp](https://dashboard.caiyunapp.com/user/sign_up/) weather API
+  - Weather AP ：I am using the [Caiyunapp](https://dashboard.caiyunapp.com/user/sign_up/) weather API
   
  ## 0x01 How to use
  
